@@ -70,8 +70,7 @@ export const data: {
       productBrand: "Nabla Cosmetics",
       category: "brushes",
       price: 30,
-      description:
-        "Brush set for a detailed brush work in your most incticated eye looks.",
+      description: "Brush set for a detailed brush work in your most incticated eye looks.",
       ingredients:
         "Ingredients: +/- Titanium Dioxide, +/- Mica, +/- Synthetic Fluorohlogopite, Dimethicone, +/- Silicon dioxide, +/- Tin Dioxide, Caprylic/ Capric Triglyceride, Isopropyl Myristate, +/-Silica, +/- Iron Oxide, +/- Kaolin Clay, +/- Magnesium Stearate, +/-Ferric Oxide, +/- Calcium Sodium Borosilicate, +/- Ferric Ferrocyanide, +/- Bismuth Oxychloride, +/- Zinc Stearate, +/- Calcium Carbonate, +/- Silica, +/- Boron Nitride, +/- Allantoin, +/- Copernicia Cerifera (Carnauba) Wax, +/- Red 40, +/- Blue 1, +/- Yellow #5, +/- Aluminum Oxide, +/- Ultramarines.",
     },
@@ -82,8 +81,7 @@ export const data: {
       productBrand: "Clionadh",
       category: "eyeshadows",
       price: 17,
-      description:
-        "Multichrome. Stunning eyeshadow for you amazing purple looks.",
+      description: "Multichrome. Stunning eyeshadow for you amazing purple looks.",
       ingredients:
         "Ingredients: +/- Titanium Dioxide, +/- Mica, +/- Synthetic Fluorohlogopite, Dimethicone, +/- Silicon dioxide, +/- Tin Dioxide, Caprylic/ Capric Triglyceride, Isopropyl Myristate, +/-Silica, +/- Iron Oxide, +/- Kaolin Clay, +/- Magnesium Stearate, +/-Ferric Oxide, +/- Calcium Sodium Borosilicate, +/- Ferric Ferrocyanide, +/- Bismuth Oxychloride, +/- Zinc Stearate, +/- Calcium Carbonate, +/- Silica, +/- Boron Nitride, +/- Allantoin, +/- Copernicia Cerifera (Carnauba) Wax, +/- Red 40, +/- Blue 1, +/- Yellow #5, +/- Aluminum Oxide, +/- Ultramarines.",
     },
@@ -167,8 +165,7 @@ export const bestellerProducts: ProductObj[] = [
     productBrand: "Nabla Cosmetics",
     category: "brushes",
     price: 30,
-    description:
-      "Brush set for a detailed brush work in your most incticated eye looks.",
+    description: "Brush set for a detailed brush work in your most incticated eye looks.",
     ingredients:
       "Ingredients: +/- Titanium Dioxide, +/- Mica, +/- Synthetic Fluorohlogopite, Dimethicone, +/- Silicon dioxide, +/- Tin Dioxide, Caprylic/ Capric Triglyceride, Isopropyl Myristate, +/-Silica, +/- Iron Oxide, +/- Kaolin Clay, +/- Magnesium Stearate, +/-Ferric Oxide, +/- Calcium Sodium Borosilicate, +/- Ferric Ferrocyanide, +/- Bismuth Oxychloride, +/- Zinc Stearate, +/- Calcium Carbonate, +/- Silica, +/- Boron Nitride, +/- Allantoin, +/- Copernicia Cerifera (Carnauba) Wax, +/- Red 40, +/- Blue 1, +/- Yellow #5, +/- Aluminum Oxide, +/- Ultramarines.",
   },
@@ -190,8 +187,7 @@ export const bestellerProducts: ProductObj[] = [
     productBrand: "Clionadh",
     category: "eyeshadows",
     price: 17,
-    description:
-      "Multichrome. Stunning eyeshadow for you amazing purple looks.",
+    description: "Multichrome. Stunning eyeshadow for you amazing purple looks.",
     ingredients:
       "Ingredients: +/- Titanium Dioxide, +/- Mica, +/- Synthetic Fluorohlogopite, Dimethicone, +/- Silicon dioxide, +/- Tin Dioxide, Caprylic/ Capric Triglyceride, Isopropyl Myristate, +/-Silica, +/- Iron Oxide, +/- Kaolin Clay, +/- Magnesium Stearate, +/-Ferric Oxide, +/- Calcium Sodium Borosilicate, +/- Ferric Ferrocyanide, +/- Bismuth Oxychloride, +/- Zinc Stearate, +/- Calcium Carbonate, +/- Silica, +/- Boron Nitride, +/- Allantoin, +/- Copernicia Cerifera (Carnauba) Wax, +/- Red 40, +/- Blue 1, +/- Yellow #5, +/- Aluminum Oxide, +/- Ultramarines.",
   },

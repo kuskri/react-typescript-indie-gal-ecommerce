@@ -17,7 +17,7 @@ import {
 import image from "../img/photo1.jpg"
 
 type Props = {
-  wrapper: {
+  wrapper?: {
     bgPos: string
     bgRepeat: string
     w: string
@@ -25,15 +25,15 @@ type Props = {
     lineHeight: string
   }
 }
-// const HeroComponent: React.FC<Props> = ({ wrapper }) => {
-const HeroComponent = () => {
+const HeroComponent: React.FC<Props> = ({ wrapper }) => {
+  // const HeroComponent = () => {
   const [emailAddress, setEmailAddress] = useState("")
   const [password, setPassword] = useState("")
   const [firstName, setFirstName] = useState("")
   const [surname, setSurname] = useState("")
   const [showPassword, setShowPassword] = useState(false)
 
-  // const styles = useMultiStyleConfig("HeroComponent", wrapper)
+  const styles = useMultiStyleConfig("HeroComponent", wrapper)
 
   //handles the sign in
   const handeSignIn = (event: React.FormEvent) => {
@@ -46,15 +46,15 @@ const HeroComponent = () => {
   }
 
   return (
-    // <Box bgImage={`url(${image})`} sx={styles.wrapper}>
-    <Box
+    <Box bgImage={`url(${image})`} sx={styles.wrapper}>
+      {/* <Box
       bgImage={`url(${image})`}
       bgPos="center"
       bgRepeat="no-repeat"
       w="100%"
       height={790}
       lineHeight="taller"
-    >
+    > */}
       <Flex
         justifyContent="center"
         flexDir={["column", "column", "column", "row"]}
@@ -73,8 +73,7 @@ const HeroComponent = () => {
               Your favorite INDIE BRANDS just a click away from you
             </Text>
             <Text fontSize={["md", "lg", "xl"]}>
-              Add these hidden gems to your collection and make it the most
-              special ever
+              Add these hidden gems to your collection and make it the most special ever
             </Text>
           </Box>
         </Box>
@@ -128,9 +127,7 @@ const HeroComponent = () => {
               </Flex>
               <FormControl>
                 <FormLabel htmlFor="email"> Email Address </FormLabel>
-                <FormHelperText>
-                  Enter your Email to keep up with us.
-                </FormHelperText>
+                <FormHelperText>Enter your Email to keep up with us.</FormHelperText>
                 <Input
                   isRequired
                   focusBorderColor="teal.300"
@@ -144,9 +141,7 @@ const HeroComponent = () => {
               </FormControl>
               <FormControl>
                 <FormLabel htmlFor="password">Password</FormLabel>
-                <FormHelperText>
-                  The Password you will use to sign in with.
-                </FormHelperText>
+                <FormHelperText>The Password you will use to sign in with.</FormHelperText>
                 <InputGroup>
                   <Input
                     isRequired
